@@ -18,7 +18,7 @@ const app = proper => {
       persons:  [
       { name: 'Virginia', age: 26 },
       { name: 'Chris', age: 23 },
-      { name: 'Chelsea', age: 28 },
+      { name: 'andrew', age: 28 },
     ]})
   }
 
