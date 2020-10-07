@@ -1,7 +1,7 @@
 .testimonial {
 
 	.tiles-item-inner {
-		background: get-color(dark, 2);		
+		background: rgb(31, 1, 1);		
 	}
 }
 
@@ -27,20 +27,20 @@
     &.has-top-divider {
 
         &::before {
-            background: get-color(dark, 3);
+            background: rgb(66, 5, 5);
         }
     }
 }
 
 .testimonial-item-link {
-	color: get-color(secondary, 3);
+	color: rgb(66, 5, 5);
 
 	a {
-        color: get-color(secondary, 3);
+        color: rgb(138, 6, 6);
         text-decoration: none;
 
         &:hover {
-            color: get-color(secondary, 2);
+            color: rgb(184, 43, 43);
         }
 	}
 }

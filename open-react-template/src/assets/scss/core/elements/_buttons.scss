@@ -6,7 +6,7 @@
 	height: $button-form--height;
     text-decoration: none !important;
 	text-transform: $button--transform;
-	color: color(button-light);
+	color: rgb(66, 5, 5);
     background-color: color-bg(button-light);
     border-width: $button-form--border-width;
 	border-style: $button-form--border-style;
@@ -54,7 +54,7 @@
 
 	&[disabled] {
 		cursor: not-allowed;
-		color: color(button-disabled);
+		color: darkgray;
 		background-color: color-bg(button-disabled) !important;
 		border-color: color-border(button-disabled);
 
@@ -92,7 +92,7 @@
 
 .button-primary {
 	color: color(button-primary);
-    background-color: color-bg(button-primary);
+    background-color: rgb(66, 5, 5);
 	border-color: color-border(button-primary);
 
     &:hover {

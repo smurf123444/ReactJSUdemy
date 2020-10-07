@@ -57,15 +57,18 @@ const Hero = ({
       {...props}
       className={outerClasses}
     >
+     
       <div className="container-sm">
         <div className={innerClasses}>
           <div className="hero-content">
+        
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              Landing template for <span className="text-color-primary">startups</span>
+            
+              Welcome to <span className="text-color-primary">Decentralife</span>
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.
+                Built on Substrate, with Ethereum in mind. Are you ready to start earning interest? Scroll below to find out more!
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
